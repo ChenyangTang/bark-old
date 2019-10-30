@@ -37,10 +37,10 @@ class UniformVehicleDistribution(ScenarioGeneration):
     self._map_file_name = params_temp["MapFilename",
       "Path to the open drive map", 
       "modules/runtime/tests/data/city_highway_straight.xodr",    ]
-    self._ego_goal_end = params_temp["EgoGoalEnd",
+    self._ego_goal_end = params_temp["EgoGoalEnd_1",
       "The center of the ego agent's goal region polygon",
       [5128, 5200] ]
-    self._ego_goal_start = params_temp["EgoGoalStart",
+    self._ego_goal_start = params_temp["EgoGoalStart_1",
       "The coordinates of the start of the ego goal,\
            if empty only ego goal end is used as center of polygon ",
       [] ]
